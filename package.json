@@ -1,6 +1,6 @@
 {
   "name": "ramda-robin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "some function use ramda",
   "type": "module",
   "main": "index.js",
