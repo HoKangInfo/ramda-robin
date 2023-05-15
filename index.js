@@ -21,3 +21,5 @@ export { default as isString } from './lib/isString.js'
 export { default as now } from './lib/now.js'
 
 export { default as inspect } from './lib/inspect.js'
+
+export { default as isNatural } from './lib/isNatural.js'
