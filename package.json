@@ -12,14 +12,10 @@
   ],
   "author": "hokang",
   "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "ramda": "^0.28.0"
-  },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/HoKangInfo/ramda-robin.git"
@@ -27,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/HoKangInfo/ramda-robin/issues"
   },
-  "homepage": "https://github.com/HoKangInfo/ramda-robin#readme"
+  "homepage": "https://github.com/HoKangInfo/ramda-robin#readme",
+  "dependencies": {
+    "ramda": "^0.29.0"
+  }
 }
