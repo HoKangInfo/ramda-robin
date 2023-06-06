@@ -23,3 +23,53 @@ export { default as now } from './lib/now.js'
 export { default as inspect } from './lib/inspect.js'
 
 export { default as isNatural } from './lib/isNatural.js'
+
+/**
+ * @example
+ * camelCase('hello world')
+ * // => 'helloWorld'
+ */
+export { default as camelCase } from './lib/camelCase.js'
+
+/**
+ * @example
+ * capitalize('hello world')
+ * // => 'Hello world'
+ */
+export { default as capitalize } from './lib/capitalize.js'
+
+/**
+ * @example
+ * deburr(hello world')
+ * // => ['hello', 'world']
+ */
+export { default as deburr } from './lib/deburr.js'
+
+/**
+ * identity 別名
+ * @example
+ * I('hello world')
+ * // => 'hello world'
+ */
+export { default as I } from './lib/I.js'
+
+/**
+ * @example
+ * lowerHead('Hello World')
+ * // => 'hello World'
+ */
+export { default as lowerHead } from './lib/lowerHead.js'
+
+/**
+ * @example
+ * pascalCase('hello world')
+ * // => 'HelloWorld'
+ */
+export { default as pascalCase } from './lib/pascalCase.js'
+
+/**
+ * @example
+ * upperHead('hello world')
+ * // => 'Hello world'
+ */
+export { default as upperHead } from './lib/upperHead.js'
