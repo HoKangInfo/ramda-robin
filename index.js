@@ -39,6 +39,11 @@ export { default as camelCase } from './lib/camelCase.js'
 export { default as capitalize } from './lib/capitalize.js'
 
 /**
+ *
+ */
+export { default as envConfig } from './lib/envConfig.js'
+
+/**
  * @example
  * deburr(hello world')
  * // => ['hello', 'world']
