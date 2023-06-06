@@ -1,5 +1,7 @@
 'use strict'
 
+import { fromPairs } from 'ramda'
+
 export { default as dd } from './lib/dd.js'
 
 export { default as d } from './lib/d.js'
@@ -78,3 +80,20 @@ export { default as pascalCase } from './lib/pascalCase.js'
  * // => 'Hello world'
  */
 export { default as upperHead } from './lib/upperHead.js'
+
+/**
+ * @example
+ * renameKeysWith(
+ *   (key) => key.toUpperCase(),
+ *   { a: 1, b: 2 }
+ * )
+ * // => { A: 1, B: 2 }
+ */
+export { default as renameKeysWith } from './lib/renameKeysWith.js'
+
+/**
+ * @example
+ * renameKeys({ a: 'x', b: 'y' }, { a: 1, b: 2 })
+ * // => { x: 1, y: 2 })
+ */
+export { default as renameKeys } from './lib/renameKeys.js'
