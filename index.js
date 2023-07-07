@@ -11,9 +11,16 @@ export { default as print } from './lib/print.js'
 /**
  * @example
  *    p('hello world')
+ * // => undefined
+ * // output => hello world
  */
 export { default as p } from './lib/print.js'
 
+/**
+ * pp('hello world')
+ * // => 'hello world'
+ * // => output => hello world
+ */
 export { default as pp } from './lib/pp.js'
 
 export { default as printf } from './lib/printf.js'
@@ -97,3 +104,5 @@ export { default as renameKeysWith } from './lib/renameKeysWith.js'
  * // => { x: 1, y: 2 })
  */
 export { default as renameKeys } from './lib/renameKeys.js'
+
+export { default as alwaysNew } from './lib/alwaysNew.js'
