@@ -106,3 +106,9 @@ export { default as renameKeysWith } from './lib/renameKeysWith.js'
 export { default as renameKeys } from './lib/renameKeys.js'
 
 export { default as alwaysNew } from './lib/alwaysNew.js'
+
+/** tools */
+/**
+ * 取CRC32雜湊
+ */
+export { default as crc32 } from './lib/crc32.js'
